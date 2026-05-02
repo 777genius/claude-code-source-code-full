@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "remotion-video": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["./mcp-server/dist/index.js"],
+      "description": "Built-in Remotion video MCP server"
+    }
+  },
+  "userServers": {}
+}

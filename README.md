@@ -448,3 +448,6 @@ Contributions to documentation, the MCP server, and exploration tooling are welc
 ## Disclaimer
 
 This repository archives a source snapshot reportedly exposed via Anthropic's npm distribution on **2026-03-31**. It is provided for research, documentation, and exploratory tooling around the snapshot. The original Claude Code source remains the property of [Anthropic](https://www.anthropic.com), this is not an official release, and no rights to Anthropic's original code are granted by this repository. If you choose to use or redistribute any of the archived material, you are responsible for assessing the legal implications yourself. Contact [nichxbt](https://www.x.com/nichxbt) for any comments.
+
+## Red Cross Remo CLI
+This repo now includes a Remotion-first multi-agent scaffold branded as **Red Cross Remo** with coordinator, skills, plugins, MCP tools, and prompt packs for video generation.

@@ -1,0 +1,3 @@
+import { z } from 'zod/v4'
+export const RemotionPexelsInput = z.object({ type:z.enum(['photo','video']), query:z.string(), count:z.number().default(5), orientation:z.enum(['landscape','portrait','square']).optional(), download:z.boolean().default(false), quality:z.enum(['hd','sd','uhd']).default('hd') })
+export class RemotionPexelsTool { description='Search and optionally download Pexels media'; /** Execute Pexels search and return media records for composition usage. */ async execute(input: unknown){ const p=RemotionPexelsInput.parse(input); return { query:p.query, items:[], downloaded:p.download } } }

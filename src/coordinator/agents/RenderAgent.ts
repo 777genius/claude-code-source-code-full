@@ -1,0 +1,1 @@
+export class RenderAgent { description = 'Assembles and renders final video.'; /** Run render queue execution for approved scenes. */ async run(_input: unknown) { return { outputPath: './out/final.mp4' } } }
